@@ -1,1 +1,14 @@
+.card-img-top {
+  height: 200px;           /* Controls vertical size */
+  width: 100%;             /* Ensures full card width */
+  object-fit: cover;       /* Crops image to fit without distortion */
+  display: block;          /* Removes bottom spacing */
+}
+
+
+
+
+.card-img-top:hover {
+  transform: scale(1.02);
+}
 
